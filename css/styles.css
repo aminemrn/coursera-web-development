@@ -33,12 +33,25 @@ h1 {
   right: 0;
   padding: 5px 10px;
   border: 1px solid black;
-  background-color: #d3d3d3;
   font-size: 125%;
+  color: white; /* Set text color to white for better contrast */
 }
 
 p {
   margin-top: 30px;
+}
+
+/* Assign unique background colors to each title */
+#chicken {
+  background-color: #d59898; /* Light red */
+}
+
+#beef {
+  background-color: #c14543; /* Dark red */
+}
+
+#sushi {
+  background-color: #e5d198; /* Light yellow */
 }
 
 /* Desktop View */
@@ -63,4 +76,5 @@ p {
   .col-sm-12 {
     width: calc(100% - 20px);
   }
+}
 }
